@@ -1,0 +1,226 @@
+.site {
+    background-color: #e5cccc88;
+}
+.P1 {
+    float: right;
+    padding: 0.40rem;
+    height: 90px;
+    border: 12px;
+    margin: 10rem;
+    margin-right: 4rem;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5rem;
+}
+
+
+.M1 {
+    float: left;
+    text-align: center;
+    padding: 3rem;
+    padding-right: 5rem;
+    height: 30px;
+    width: 828px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-left: 2.5px;
+    font-size:xx-large;
+}
+.A2 {
+    background-color: #333;
+    float: left;
+    margin-top: -10rem;
+    padding: 1rem;
+    padding-right: 7rem;
+    height: 325px;
+    width: 800px;
+    margin-left: 2rem;
+    color:white;
+    border: 1px;
+}
+.A3 {
+    background-color: #333;
+    color: white;
+    float: left;
+    font-size: small;
+    padding: 0.5rem;
+    margin-left: 2.25rem;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+}
+.A31 {
+    text-align: center;
+}
+.A4{
+    background-color: #333;
+    float: left;
+    padding: 1rem;
+    padding-right: 7rem;
+    height: 200px;
+    width: 800px;
+    margin-left: 2rem;
+    margin-bottom: 50rem;
+    margin-top: 0.5rem;
+    position: absolute;
+}
+.A41 {
+    color: white;
+}
+.A42 {
+    height: 25px;
+    width: 180px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin-left: 3rem;
+    color: white;
+    padding: 0.25rem;
+}
+.B1{
+    position: absolute;
+}
+.B2{
+    position:absolute;
+}
+
+.A43 {
+    height: 25px;
+    width: 180px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin-left: 23rem;
+    color: white;
+    padding: 0.25rem;
+}
+.A44 {
+    height: 25px;
+    width: 180px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin-left: 42rem;
+    color: white;
+    padding: 0.25rem;
+}
+.B3 {
+    position: absolute;
+}
+.A5 {
+    height: 300px;
+    width: 914px;
+    background-color: #333;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    margin-right: 55rem;
+    padding: 0.5rem;
+}
+
+.A52{
+    height: 25px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    margin-right: 5rem;
+    margin-left: 25rem;
+}
+.B123 {
+    padding-left: 2rem;
+    margin-left: 0rem;
+    margin-right: 5rem ;
+    padding-right: 5rem;
+}
+.b10{
+    color: white;
+    text-align: center;
+    font-size: medium;
+
+}
+.A7{
+    background-color: #333;
+    margin-left: 2rem;
+    margin-right: 17rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+
+.B6{
+    color: white;
+}
+.B9{
+    color: white;
+    
+}
+.C1{
+    height: 800px;
+    width: 1190px;
+    background-color: #333;
+    padding-left: 5rem;
+    margin-left: 2rem;
+    margin-top: 20rem;
+}
+.D1{
+    color: white;
+    text-align: center;
+}
+.C11 {
+    height: 80px;
+    width: 20px;
+    border: 2rem;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+.F2{
+    font-size:xx-large;
+    color: white;
+    padding: 1px;
+    padding-left: 30rem;
+}
+.C12{
+    height:80px;
+    width: 20px;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10rem;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+.C13 {
+    height: 80px;
+    width: 20px;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10rem;
+    margin-left: 50rem;
+    margin-top: 5rem;
+    position: absolute;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content, .posts-box {
+    flex: 1; /* This makes both children of the flex container take up equal space */
+    padding: 0px; /* Adds some spacing inside each box */
+    margin-top: -160px;
+}
+
+.posts-box {
+    margin-left: -150px; /* Adds some space between the main content and the posts box */
+    border: 1px solid #333; /* Optional: adds a border around the posts box */
+    padding: 10px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+}
